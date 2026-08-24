@@ -58,7 +58,7 @@
   clear: both;
   visibility: hidden;
   line-height: 0;
-
+  height: 0;
 }
 html[xmlns] .flexslider .slides {
   display: block;
