@@ -3,9 +3,9 @@ import { FaHandshake, FaShieldAlt, FaStar, FaUsers } from "react-icons/fa";
 
 const Values = () => {
   const bgColor = "#ffffff"; // White background
-  const headingColor = "#223843"; // Blue headings
+  const headingColor = "#BD5579"; // Blue headings
   const textColor = "#000000"; // Black text
-  const accentColor = "#FA991C"; // Warm accent for icons/lines
+  const accentColor = "#BD5579"; // Warm accent for icons/lines
 
   const sectionStyle = {
     backgroundColor: bgColor,
@@ -82,12 +82,7 @@ const Values = () => {
       icon: <FaUsers style={iconStyle} />,
       title: "3. Professional Integrity",
       text: "Honesty and transparency guide our work. We talk clearly, take care of duties with admiration, and construct long-lasting accept as true with customers through truthful and ethical practices.",
-    },
-    {
-      icon: <FaStar style={iconStyle} />,
-      title: "5. Innovation Focus",
-      text: "We embrace modern solutions and advanced techniques to improve moving experiences. By meeting the changing needs, we provide efficient, cost-effective and best relocation shipping services to each customer",
-    },
+    } 
   ];
 
   return (
@@ -99,15 +94,7 @@ const Values = () => {
             <div
               key={index}
               style={valueItem}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = valueItemHover.transform;
-                e.currentTarget.style.boxShadow = valueItemHover.boxShadow;
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = "none";
-                e.currentTarget.style.boxShadow =
-                  "0 6px 20px rgba(0,0,0,0.08)";
-              }}
+              
             >
               {value.icon}
               <h3 style={titleStyle}>{value.title}</h3>

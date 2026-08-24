@@ -1,4 +1,4 @@
-import image from '../assets/images/best-home-maintenance-company.webp'
+
 
 const About = () => {
   return (

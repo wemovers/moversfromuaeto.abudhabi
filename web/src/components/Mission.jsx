@@ -2,7 +2,7 @@ import React from "react";
 
 const Mission = () => {
   const bgColor = "#ffffff"; // White background
-  const headingColor = "#223843"; // Blue headings
+  const headingColor = "#BD5579"; // Blue headings
   const textColor = "#000000"; // Black text
 
   const sectionStyle = {
@@ -71,21 +71,6 @@ const Mission = () => {
           </div>
         </div>
 
-        {/* Second Row */}
-        <div style={{ ...contentWrapper, flexDirection: "row-reverse" }}>
-          <div style={textStyle}>
-            <p>
-              We attempt to build consideration through reliability, transparency, and customized service. Our experienced group works continuously to ensure timely deliveries and safe handling of every item, regardless of the destination. By combining worldwide attain with local information, our professional movers in UAE aim to be more than a moving service; we want to be a reliable associate in every relocation. Our assignment is to connect lives across borders with performance, recognition, and actual care
-            </p>
-          </div>
-          <div>
-            <img
-              src="https://images.unsplash.com/photo-1529070538774-1843cb3265df"
-              alt="Shipping Containers"
-              style={imageStyle}
-            />
-          </div>
-        </div>
       </div>
     </section>
   );

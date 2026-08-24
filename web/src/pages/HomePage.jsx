@@ -17,7 +17,9 @@ const HomePage = () => {
           content="Discover reliable global relocation services with expert movers in UAE. Safe packing, customs support, and secure shipping tailored for stress-free international moves."
         />
       </Helmet>
-
+      <About/>
+      <Mission/>
+      <Values/>
 
       <Reviews/>
  
