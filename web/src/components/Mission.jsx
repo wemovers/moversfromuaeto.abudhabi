@@ -52,19 +52,17 @@ const Mission = () => {
         <div style={contentWrapper}>
           <div style={textStyle}>
             <p>
-  At <a href="https://www.wemovers.ae/" class="clickable-link" target="_blank">
-    Moving Personal Effects Internationally
-  </a>, our project is to make global transferring easy, stable, and stress-free for each customer. 
-  We know that individual property creates memories, comfort and purpose in addition to preserving monetary value. 
-  We are dedicated to treating every shipment with the highest care and professionalism. 
-  Furthermore, we aim to provide a piece of total mind during the entire moving process 
-  from careful packing to easy customs withdrawal.
-</p>
+              At WeMovers, our mission is to make moving, relocation easier… kind of more sorted, less stressful too for our customers. We want to provide dependable support for home moves, business<a href="https://www.wemovers.ae/services/office-relocation" class="clickable-link" target="_blank">
+                office relocations
+              </a>, overseas deliveries, and even for the simple moving of personal belongings.
+            <br/><br/>
+            Every shipment is kinda unique; because of that, we spend time trying to understand what the customer actually needs before we even start planning the move. From packing and careful handling to transportation and final delivery, our crew kind of works so each step stays in sync, properly coordinated, not drifting off. I mean it.  
+            </p>
 
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d" 
+              src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d"
               alt="Cargo Truck"
               style={imageStyle}
             />

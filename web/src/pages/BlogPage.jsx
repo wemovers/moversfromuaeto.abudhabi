@@ -1,21 +1,21 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
-import img from '../assets/images/blog1.jpg';
+import img from '../assets/images/Blog1_img1.jpg';
 import img2 from '../assets/images/cargo-1.jpg';
 import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
-  // Sample blog data - in a real app, this would come from an API or CMS
+ 
   const blogPosts = [
     {
       id: 1,
-      title: 'Shipping Personal Effects Internationally in Dubai: Best Relocation Services',
-      description: 'If you are making plans to relocate to another continent or international region and are looking for a problem-free move overseas, you have stopped here.....',
-      metaTitle:'International Personal Effects Shipping Dubai',
-      metaDescription:'Safe, affordable, and hassle-free shipping of personal effects in Dubai with expert packing, customs clearance, and door-to-door delivery.',
+      title: 'Affordable UAE to Kuwait Customs Clearance',
+      description: 'Get affordable UAE to Kuwait Customs Clearance with reliable documentation, cargo handling, and smooth cross-border shipment support...',
+      metaTitle:'Affordable UAE to Kuwait Customs Clearance',
+      metaDescription:'Get affordable UAE to Kuwait Customs Clearance with reliable documentation, cargo handling, and smooth cross-border shipment support.',
       thumbnail: img,
-      date: 'August 28th, 2025',
-      url: '/blog/shipping-personal-effects-internationally-in-dubai'
+      date: 'August 25, 2026',
+      url: '/blog/uae-to-kuwait-customs-clearance'
     },
     {
       id: 2,
