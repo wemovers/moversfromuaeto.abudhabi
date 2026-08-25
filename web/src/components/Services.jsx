@@ -122,6 +122,7 @@ const Services = () => {
           color: #555;
           margin-bottom: 18px;
           flex-grow: 1;
+          text-align: justify;
         }
 
         .service-link {
@@ -135,7 +136,7 @@ const Services = () => {
         }
       `}</style>
 
-      <div className="container">
+      <div className="container" id='services'>
         <div className="section-header">
           <h2 className="section-title" style={{ color: '#601D49' }}>
             Expert services in Abu Dhabi and the UAE

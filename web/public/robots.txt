@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: http://www.moversfromabudhabito.com/sitemap.xml
+Sitemap: http://www.moversfromuaeto.abudhabi/sitemap.xml

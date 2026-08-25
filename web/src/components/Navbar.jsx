@@ -161,18 +161,14 @@ const Navbar = () => {
                 Mission
               </a>
             </li>
-            <li>
-              <a href="#our-values" style={navLinkStyle} onClick={(e) => handleHashClick(e, 'our-values')}>
-                Values
-              </a>
-            </li>
+           
             <li>
               <a href="#services" style={navLinkStyle} onClick={(e) => handleHashClick(e, 'services')}>
                 Services
               </a>
             </li>
             <li>
-              <a href="#faqs" style={navLinkStyle} onClick={(e) => handleHashClick(e, 'faqs')}>
+              <a href="#faq" style={navLinkStyle} onClick={(e) => handleHashClick(e, 'faq')}>
                 FAQs
               </a>
             </li>

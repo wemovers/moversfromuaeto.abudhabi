@@ -95,6 +95,7 @@ const Contact = () => {
         padding: "90px 20px",
         fontFamily: "Arial, sans-serif",
       }}
+      id="contact"
     >
       {/* ================= HEADER ================= */}
       <div

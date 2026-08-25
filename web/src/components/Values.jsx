@@ -86,8 +86,8 @@ const Values = () => {
   ];
 
   return (
-    <section style={sectionStyle}>
-      <div className="container" id="values">
+    <section style={sectionStyle} id="values">
+      <div className="container" >
         <h2 style={headingStyle}>Our Values</h2>
         <div style={timelineWrapper}>
           {values.map((value, index) => (
