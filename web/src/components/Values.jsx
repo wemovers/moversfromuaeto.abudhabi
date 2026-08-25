@@ -71,17 +71,17 @@ const Values = () => {
     {
       icon: <FaHandshake style={iconStyle} />,
       title: "1. Customer Commitment",
-      text: "We positioned our clients first, offering customized transferring solutions that ensure comfort, accept as true with, and peace of mind during each step of the relocation journey.",
+      text: "In every move, we keep our customers at the center, as always. We really take the time to listen and understand what they need, and then we build moving solutions that fit not only their things but also the timetable and the final place. ",
     },
     {
       icon: <FaShieldAlt style={iconStyle} />,
       title: "2. Reliable Service",
-      text: "Our team offers consistent, reliable assistance, coping with every item with care. We ensure assets arrive adequately and on time, making worldwide movements simple and stress-free",
+      text: "A smooth move depends on the right plan and a steady service rhythm. We sort of lean into careful handling, well-organized transportation, and on-time updates, so customers stay informed the whole time during their relocation. ",
     },
     {
       icon: <FaUsers style={iconStyle} />,
       title: "3. Professional Integrity",
-      text: "Honesty and transparency guide our work. We talk clearly, take care of duties with admiration, and construct long-lasting accept as true with customers through truthful and ethical practices.",
+      text: "We kind of believe in honest communication and also in responsible service. Our crew works with transparency, but still kinda respects customers' belongings, and keeps a professional approach throughout the move process, even when it feels a bit hectic. ",
     } 
   ];
 
