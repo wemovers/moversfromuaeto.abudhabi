@@ -6,6 +6,7 @@ import Values from '../components/Values'
 import About from '../components/About'
 import Blog from '../components/Blog'
 import Reviews from '../components/Reviews'
+import FAQs from '../components/FAQs'
 import Services from '../components/Services'
 const HomePage = () => {
   return (
@@ -19,7 +20,10 @@ const HomePage = () => {
       </Helmet>
       <Hero/>
       <About/>
+      <Blog/>
       <Mission/>
+      <Contact/>
+      <FAQs/>
       <Values/>
 <Services/>
       <Reviews/>
