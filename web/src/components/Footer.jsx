@@ -90,7 +90,7 @@ const Footer = () => {
         <div style={{ flex: '1 1 180px', minWidth: '180px' }}>
           <h5 style={headingStyle}>Useful Links</h5>
 
-          {['Mission', 'Service', 'Contact', 'Why Us', 'FAQs'].map(
+          {['Mission', 'Service'].map(
             (item, idx) => (
               <a
                 key={idx}

@@ -1,7 +1,7 @@
 
 import React from "react";
-import img1 from "../assets/images/blog1.jpg";
-import img2 from "../assets/images/blog1.jpg";
+import img1 from "../assets/images/Blog1_img1.jpg";
+import img2 from "../assets/images/b1.png";
 import img3 from "../assets/images/blog1.jpg";
 
 const Blog = () => {
@@ -10,17 +10,17 @@ const Blog = () => {
       id: 1,
       imgSrc: img1,
       category: "Moving Company",
-      title: "Guidance on How to Hire Affordable International Movers in Dubai?",
-      desc: "To lease cheap international movers in Dubai, plan many months, get prices from multiple businesses by means of comparing their offerings and costs, and study destination customs regulations to ensure a smooth process.....",
-      link: "/blog/affordable-international-movers-in-dubai",
+      title: "Affordable UAE to Kuwait Customs Clearance",
+      desc: "Get affordable UAE to Kuwait Customs Clearance with reliable documentation, cargo handling, and smooth cross-border shipment support...",
+      link: "/blog/uae-to-kuwait-customs-clearance",
     },
     {
       id: 2,
       imgSrc: img2,
       category: "Moving Company",
-      title: "Best and Cheap International Movers in Dubai, UAE",
-      desc: "Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.....",
-      link: "/blog/best-and-cheap-international-movers-in-dubai-uae",
+      title: "Dubai to Saudi Household Moving Services: Making Cross-Border Moves Easier",
+      desc: "Moving your household from Dubai to Saudi Arabia can be an exciting new chapter, but the logistics behind an international relocation can feel overwhelming. Furniture, appliances........",
+      link: "/blog/dubai-to-saudi-household-moving-services",
     },
     {
       id: 3,

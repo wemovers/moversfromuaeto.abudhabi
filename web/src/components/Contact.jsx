@@ -102,6 +102,7 @@ const Contact = () => {
           maxWidth: "850px",
           margin: "0 auto 55px",
           textAlign: "center",
+          
         }}
       >
         <span
@@ -141,11 +142,11 @@ const Contact = () => {
             color: colors.muted,
             fontSize: "1.05rem",
             lineHeight: "1.8",
+            textAlign:"justify",
           }}
         >
-          Planning a move? Our team is ready to help with home relocation,
-          international moving, office relocation, freight, packing, and
-          storage solutions.
+         Thinking about relocating? Our crew is here for your home relocation, international relocation,
+office move, freight hauling, packing support, and even storage arrangements, if needed.
         </p>
       </div>
 
@@ -257,7 +258,7 @@ const Contact = () => {
             border: `1px solid ${colors.border}`,
           }}
         >
-          <div style={{ marginBottom: "25px" }}>
+          <div style={{ marginBottom: "25px",  }}>
             <span
               style={{
                 color: colors.accent,
@@ -692,11 +693,12 @@ const Contact = () => {
             lineHeight: "1.7",
             maxWidth: "700px",
             marginInline: "auto",
+            textAlign:"justify",
           }}
         >
-          Whether you're moving across Abu Dhabi, relocating within the UAE,
-          or planning an international move, WeMovers is here to help you
-          plan your relocation with confidence.
+          Share a bit about how your move looks, where you are now, where you’re headed to, what kind
+of belongings you have, and your preferred moving timeline. Once we know that, we can gauge
+your situation and point you in the direction of a good relocation approach.
         </p>
       </div>
     </section>

@@ -29,7 +29,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="services-section" id='services' style={{ backgroundColor: '#FDF3F5' }}>
+    <section className="services-section" id='service' style={{ backgroundColor: '#FDF3F5', }}>
       <style>{`
         .services-section {
           padding: 80px 0;

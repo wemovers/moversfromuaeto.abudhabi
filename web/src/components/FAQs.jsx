@@ -18,53 +18,25 @@ const Faqs = () => {
     {
       question: "What services does WeMovers provide?",
       answer:
-        "WeMovers provides a wide range of relocation and logistics solutions, including home relocation, international relocation, office moving, commercial moving, global freight, packing and unpacking, and short-term and long-term storage solutions.",
+        "WeMovers offers a bunch of moving and relocation stuff, kinda like domestic moving and home relocation, plus office and commercial moving. There is also packing, international relocation, shipping and freight, and some extra storage support as well.",
     },
     {
       question: "How can I get a moving quote from WeMovers?",
       answer:
-        "You can contact WeMovers through our website, phone, or email to request a moving quote. Our team can discuss your requirements, the type of items being moved, the destination, packing requirements, and other details before preparing a suitable quotation.",
+        "You can get in touch with our team using a phone call, via email, or by filling out the quote form on our site. Just share a few specifics about your relocation work, like where you’re picking up from, the general area of arrival, what sort of things you’re relocating, and the day you’d rather have.",
     },
-    {
+        {
+
       question: "Does WeMovers handle international relocations?",
       answer:
-        "Yes. WeMovers offers international relocation services for individuals, families, and businesses. Our team can assist with packing, transportation, documentation, customs coordination, and delivery to the destination.",
-    },
-    {
-      question: "Do you provide packing and unpacking services?",
-      answer:
-        "Yes. Professional packing and unpacking services are available. Items can be packed according to their type and handling requirements to help reduce the risk of damage during transportation.",
+        "Yes, WeMovers helps with international relocation and the shipping of personal effects. You’ll have a team that can assist with packing, careful handling, transport coordination, and delivery planning, all based on where you are going and what your shipment actually needs",
     },
     {
       question: "Can WeMovers move office and commercial items?",
       answer:
-        "Yes. WeMovers provides office and commercial relocation services. The team can assist with moving office furniture, equipment, documents, and other business-related items while helping coordinate the move efficiently.",
+        "Yes. We help companies with office and commercial moves, including furniture, equipment, files, and other business belongings, you know. The whole moving plan can be set up based on how big the business is and what it needs, such as specific requirements",
     },
-    {
-      question: "Does WeMovers provide storage facilities?",
-      answer:
-        "Yes. WeMovers provides short-term and long-term storage solutions for customers who need a secure place to keep their belongings before, during, or after a relocation.",
-    },
-    {
-      question: "Can you move furniture and large household items?",
-      answer:
-        "Yes. Our moving services can include furniture, appliances, household goods, personal belongings, and other large items. Proper handling and packing methods can be used depending on the nature of the item.",
-    },
-    {
-      question: "Do you provide moving services outside the UAE?",
-      answer:
-        "Yes. WeMovers supports international relocation and freight requirements between the UAE and various international destinations. Services can be planned according to the destination, shipment type, and customer requirements.",
-    },
-    {
-      question: "How early should I book my move?",
-      answer:
-        "It is generally recommended to arrange your move as early as possible, particularly for international relocations or larger household and commercial moves. Early planning provides more time for packing, documentation, transportation arrangements, and scheduling.",
-    },
-    {
-      question: "Why should I choose professional movers?",
-      answer:
-        "Professional movers can make relocation easier by handling packing, loading, transportation, unloading, and other moving tasks in an organized manner. This can help reduce the physical workload, save time, and make the overall moving process more manageable.",
-    },
+  
   ];
 
   const toggleFaq = (index) => {
@@ -222,6 +194,7 @@ const Faqs = () => {
                   overflow: "hidden",
                   transition:
                     "max-height 0.4s ease",
+                    textAlign:"justify",
                 }}
               >
                 <div
@@ -276,38 +249,14 @@ const Faqs = () => {
             margin: "0 auto 22px",
             lineHeight: "1.6",
             maxWidth: "650px",
+            textAlign:"justify",
           }}
         >
           Our relocation team is ready to help you understand your moving
           requirements and find the right solution for your move.
         </p>
 
-        <a
-          href="/contact"
-          style={{
-            display: "inline-block",
-            backgroundColor: colors.softPink,
-            color: colors.primary,
-            padding: "12px 28px",
-            borderRadius: "50px",
-            textDecoration: "none",
-            fontWeight: "800",
-            transition: "all 0.3s ease",
-          }}
-          onMouseOver={(e) => {
-            e.currentTarget.style.backgroundColor = colors.white;
-            e.currentTarget.style.transform =
-              "translateY(-3px)";
-          }}
-          onMouseOut={(e) => {
-            e.currentTarget.style.backgroundColor =
-              colors.softPink;
-            e.currentTarget.style.transform =
-              "translateY(0)";
-          }}
-        >
-          Contact WeMovers →
-        </a>
+        
       </div>
     </section>
   );
