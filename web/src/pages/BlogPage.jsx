@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
 import img from '../assets/images/Blog1_img1.jpg';
-import img2 from '../assets/images/cargo-1.jpg';
+import img2 from '../assets/images/b1.png';
 import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
@@ -19,13 +19,13 @@ const BlogPage = () => {
     },
     {
       id: 2,
-      title: 'What Are the Best Ways to Move Personal Effects Internationally',
-      description: 'Moving overseas is thrilling; however, it may also feel disturbing. You want your non-public things—garments, fixtures, gadgets......',
-      metaTitle:'Best Ways to Move Personal Effects Internationally ',
-      metaDescription:'Move personal belongings overseas with air, sea, courier, or movers in the UAE. Get packing tips, customs guidance & cost-saving strategies for stress-free relocation.',
+      title: 'Dubai to Saudi Household Moving Services: Making Cross-Border Moves Easier',
+      description: 'Moving your household from Dubai to Saudi Arabia can be an exciting new chapter, but the logistics behind an international relocation can feel overwhelming. Furniture, appliances........',
+      metaTitle:'Dubai to Saudi Household Moving Services | WeMovers',
+      metaDescription:'Explore Dubai to Saudi Household Moving Services for packing, transportation, customs support, storage, and reliable cross-border household relocation',
       thumbnail: img2,
-      date: 'August 28th, 2025',
-      url: '/blog/best-ways-to-move-personal-effects'
+      date: 'August 25th, 2026',
+      url: '/blog/dubai-to-saudi-household-moving-services'
     },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');
