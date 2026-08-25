@@ -50,7 +50,7 @@ const Faqs = () => {
         padding: "90px 20px",
         fontFamily: "Arial, sans-serif",
       }}
-    >
+     id="faq">
       {/* Header */}
       <div
         style={{

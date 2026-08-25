@@ -32,9 +32,10 @@ const Hero = () => {
                   margin: '20px 0 15px',
                   color: '#601D49',
                   lineHeight: '1.3',
+                  textAlign: 'justify',
                 }}
               >
-                From Packing to Delivery — <em style={{ color: '#BD5579', fontStyle: 'normal' }}>We Handle It All</em>
+                From Packing to Moving — <em style={{ color: '#BD5579', fontStyle: 'normal' }}>We Handle It All</em>
               </h2>
               <p
                 style={{
@@ -42,17 +43,11 @@ const Hero = () => {
                   lineHeight: '1.8',
                   fontSize: '1rem',
                   color: '#555',
+                  textAlign: 'justify',
                 }}
               >
-                From packing to delivery, we deal with the lot to make your move easy and stress-free. Our group in Abu Dhabi looks after your{' '}
-                <a href='https://www.wemovers.ae/blog/move-your-household-goods-safely-in-abu-dhabi' style={{ color: '#BD5579' }}>
-                  household goods
-                </a>{' '}
-                with utmost care and safety.
-                <br />
-                <br />
-                We package your objects properly, deliver them safely, and supply them on time for your new home. You don't want to worry about an aspect – we do all the difficult be just right for you. With us, your transferring journey will become simple, clean, and secure from start to completion.
-              </p>
+                 Moving is easier when every little part of the process is treated with the right kind of care. With WeMovers, we bring dependable moving and relocation services for people, households, and companies across Abu Dhabi, Dubai, and the UAE.   From careful packing and careful furniture handling, all the way through transport, on-time delivery, and international relocation support, our team handles the key details that show up with your move. We focus on protecting your belongings, keeping communication clear and steady… plus making the whole relocation journey feel organized, easy, and convenient.   So, whether you’re moving into a new house, updating your office area, or sending personal items overseas, WeMovers helps you move with a bit more confidence from the first step right up to final delivery. 
+                     </p>
               <div className="main-button mt-4">
                 
                  <a href="https://www.wemovers.ae"
