@@ -11,12 +11,16 @@ const About = () => {
                 <span>Who we are</span>
                 <h2>Get To Know About  <em>Moving Personal Effects Internationally</em></h2>
                 <p style={{textAlign:'justify'}}>
-                  We are an expert moving company in UAE that specializes in worldwide personal goods transport. Our awareness is on offering safe, efficient, and dependable relocation answers tailored to each client’s specific wishes.
+                  Moving personal items across borders isn’t only about moving boxes from one place to the next. It’s more like a full process: you know, packing properly, handling things with care, doing transportation planning, plus the paperwork part, and then keeping everything coordinated while you go along. 
  
                   <br /><br />
-                  We handle every stage including packing, customs and transport for our knowledgeable employees and global contacts. Our goal is to ensure that every customer has peace of mind by making international tricks stress-free.
-                </p>
+                 We know that household belongings, furniture pieces, personal items, and those other possessions people collect over time need careful attention at every step, not just when loading or whatever part you think is the hard one.
+                 <br/><br/>
+                 From getting your stuff ready for transport and making sure it’s all set, to coordinating the drop-off at the destination, we aim to make the whole moving experience feel more manageable, while still keeping your preferences and your timeline in focus. 
+           
+                 <br/><br/>
                 <a href="https://www.wemovers.ae/" target='_blank' rel="noopener noreferrer" className="filled-button">Read More</a>
+             </p>
               </div>
             </div>
             <div className="col-md-6 align-self-center">
