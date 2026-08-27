@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
 import img from '../assets/images/Blog1_img1.jpg';
 import img2 from '../assets/images/b1.png';
+import img3 from '../assets/images/s1.jpg';
 import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
@@ -26,6 +27,17 @@ const BlogPage = () => {
       thumbnail: img2,
       date: 'August 25th, 2026',
       url: '/blog/dubai-to-saudi-household-moving-services'
+    },
+      
+     {
+      id: 3,
+      title: 'UAE to Saudi Customs Clearance Services: How Documents, Duties & Border Procedures Work',
+      description: 'Shipping goods from the UAE to Saudi Arabia can be an efficient option for businesses, families, traders, and individuals, but international transportation involves more than simply arranging cargo movement........',
+      metaTitle:'UAE to Saudi Customs Clearance Services: Complete Guide',
+      metaDescription:'Learn about UAE to Saudi customs clearance services, required documents, duties, border procedures, common delays, and tips for smoother cross-border shipping.',
+      thumbnail: img3,
+      date: 'August 27th, 2026',
+      url: '/blog/uae-to-saudi-customs-clearance-services'
     },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');
