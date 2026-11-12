@@ -39,6 +39,16 @@ const BlogPage = () => {
       date: 'August 27th, 2026',
       url: '/blog/uae-to-saudi-customs-clearance-services'
     },
+      {
+      id: 4,
+      title: 'Moving Expert in Abu Dhabi: Our Approach to a Well-Planned Move | WeMovers',
+      description: 'Moving to a new home or office involves more than transporting furniture and boxes between two addresses. It requires preparation........',
+      metaTitle:'Moving Expert in Abu Dhabi: Our Approach to a Well-Planned Move | WeMovers',
+      metaDescription:'Discover how our moving experts in Abu Dhabi can help you plan and execute a smooth, stress-free relocation across borders.',
+      thumbnail: img,
+      date: 'Nov 12, 2026',
+      url: '/blog/moving-expert-abu-dhabi-well-planned-move'
+    },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');
   const descriptions = blogPosts.map(post => post.metaDescription).join(' ');
